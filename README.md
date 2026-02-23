@@ -1,0 +1,1 @@
+# This script is used for converting the annoying pop windows to a toast message
