@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         TradingView Remove Pop up
 // @namespace    http://tampermonkey.net/
-// @version      2026-02-23-v2
+// @version      2026-02-24-v3
 // @description  This simple is used for remove pop up ads in tradingview
 // @author       Anton
-// @match        https://www.tradingview.com/chart/GDLC2P5t/
+// @match        https://www.tradingview.com/chart/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=tradingview.com
 // @grant        none
 // ==/UserScript==
