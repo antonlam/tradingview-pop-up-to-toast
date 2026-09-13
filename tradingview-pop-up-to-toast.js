@@ -6,6 +6,7 @@
 // @author       Anton
 // @match        https://www.tradingview.com/chart/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=tradingview.com
+// @license      MIT
 // @grant        none
 // ==/UserScript==
 
