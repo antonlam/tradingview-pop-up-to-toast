@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TradingView Remove Pop up
 // @namespace    http://tampermonkey.net/
-// @version      2026-02-24-v3
+// @version      2026-09-13
 // @description  This simple is used for remove pop up ads in tradingview
 // @author       Anton
 // @match        https://www.tradingview.com/chart/*
@@ -129,9 +129,9 @@
         const titleText = titleEl?.textContent?.trim() || '';
 
         if (titleText) {
-            showToast("Error: " + titleText);
+            showToast("Issue: " + titleText);
         }
-        let button = el.querySelector(".overlayBtn-xxA0F0Gn");
+        let button = el.querySelector('button.overlayBtn-DQ4k9hNT.xsmall-DQ4k9hNT[aria-label="Close"][data-qa-id="promo-dialog-close-button"]');
         setTimeout(function() {
             button.click();
         }, 100);
